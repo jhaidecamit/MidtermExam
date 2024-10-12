@@ -1,0 +1,12 @@
+﻿User Input,Intent,Entities
+"""Book a flight to Manila on Monday""",Flight Booking,"""{'destination': 'Manila', 'date': 'Monday'}"""
+"""I want to cancel my flight to Davao""",Flight Cancellation,"""{'destination': 'Davao'}"""
+"""Can I change my flight from Cebu to Manila?""",Change Flight,"""{'origin': 'Cebu', 'destination': 'Manila'}"""
+"""How much baggage can I take?""",Baggage Inquiry,"""{}"""
+"""Is my flight on time?""",Check Flight Status,"""{}"""
+"""Book a flight to Cebu""",Flight Inquiry,"""{}"""
+"""Can you tell me about flights to Davao?""",Flight Inquiry,"""{'destination': 'Davao'}"""
+"""Book my flight to Manila now""",Flight Booking,"""{'destination': 'Manila'}"""
+"""Can you check flights from Manila to Korea for next month?""",Check-in Request,"""{'origin': 'Manila', 'destination': 'Korea', 'date': 'next month'}"""
+"""What is the luggage policy for my flight?""",Luggage Policy Inquiry,{}
+"""I need to fly to Singapore from the Philippines next week""",Flight Booking,"""{'origin': 'Philippines', 'destination': 'Singapore', 'date': 'next week'}"""
